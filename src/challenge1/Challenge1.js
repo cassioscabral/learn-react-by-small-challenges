@@ -35,16 +35,12 @@ export default function Challenge1() {
 
       {/* Make your changes below this comment */}
 
-      {/* TODO
-      what to do if dogBreed is empty 
-      */}
+      {/* Answer below */}
       {dogBreed ? (
         <h3>Your favorite dog breed is: {dogBreed} </h3>
       ) : (
         <h3> Please select your favorite dog breed</h3>
       )}
-
-      {/* Answer below */}
 
       <label>
         Select your favorite dog breed:
